@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-*Note: If you have a live deployment, please provide the URL here.*
+Comming soon
 
 ## 🚀 Features
 
