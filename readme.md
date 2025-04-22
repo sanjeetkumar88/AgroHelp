@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-Comming soon
+comming soon
 
 ## 🚀 Features
 
@@ -24,8 +24,21 @@ Comming soon
 
 ## 📁 Project Structure
 
-AgroHelp/ ├── backend/ # Express.js server and API routes │ ├── controllers/ # Route controllers │ ├── models/ # Mongoose schemas │ ├── routes/ # API endpoints │ └── ... # Other backend files ├── frontend/ # React.js application │ ├── components/ # Reusable UI components │ ├── pages/ # Application pages │ └── ... # Other frontend files ├── .gitignore ├── package.json └── README.md
-
+```
+AgroHelp/
+├── backend/               # Express.js server and API routes
+│   ├── controllers/       # Route controllers
+│   ├── models/            # Mongoose schemas
+│   ├── routes/            # API endpoints
+│   └── ...                # Other backend files
+├── frontend/              # React.js application
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Application pages
+│   └── ...                # Other frontend files
+├── .gitignore
+├── package.json
+└── README.md
+```
 
 ## 🧑‍💻 Getting Started
 
@@ -33,3 +46,79 @@ AgroHelp/ ├── backend/ # Express.js server and API routes │ ├── co
 
 - Node.js and npm installed on your machine  
 - MongoDB installed or access to a MongoDB Atlas cluster  
+
+### Installation
+
+#### Navigate to the project directory:
+
+```bash
+cd AgroHelp
+```
+
+#### Install backend dependencies:
+
+```bash
+cd backend
+npm install
+```
+
+#### Install frontend dependencies:
+
+```bash
+cd ../frontend
+npm install
+```
+
+#### Set up environment variables:
+
+Create a `.env` file in the `backend` directory and add your MongoDB URI and JWT secret:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+#### Start the development servers:
+
+**Backend:**
+```bash
+cd backend
+npm start
+```
+
+**Frontend:**
+```bash
+cd frontend
+npm start
+```
+
+The frontend will typically run on `http://localhost:3000` and the backend on `http://localhost:5000`.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+
+```bash
+git checkout -b feature/your-feature-name
+```
+
+3. Commit your changes:
+
+```bash
+git commit -m "Add your message here"
+```
+
+4. Push to the branch:
+
+```bash
+git push origin feature/your-feature-name
+```
+
+5. Open a pull request.
+
+## 📬 Contact
+
+For any queries or support, feel free to reach out at **sanjeetverma031@gmail.com**.
